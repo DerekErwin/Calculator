@@ -1,0 +1,16 @@
+#drawingBoard {
+    display: grid;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(183, 192, 192);
+    border: 2px solid rgb(0, 0, 0);
+    margin: 10px;
+}
+
+.grid {
+    gap: 2px;
+}
+
+.pixel {
+    background-color: rgb(255, 255, 255);
+}

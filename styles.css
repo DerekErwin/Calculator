@@ -1,16 +1,39 @@
-#drawingBoard {
-    display: grid;
-    width: 400px;
-    height: 400px;
-    background-color: rgb(183, 192, 192);
-    border: 2px solid rgb(0, 0, 0);
-    margin: 10px;
+body {
+    background-color: #D6CCA9;
 }
 
-.grid {
-    gap: 2px;
+button {
+    padding: 10px;
+    margin: 1px;
+    flex: 1;
 }
 
-.pixel {
-    background-color: rgb(255, 255, 255);
+#container {
+    width: 200px;
+    background-color: gray;
+    border: 2px solid #383838;
+    margin: 6px;
+    padding: 6px;
+}
+
+#display {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    padding: 5px;
+    font-size: 50px;
+    font-weight: initial;
+    text-shadow: 1.3px 1.3px #383838;
+    margin: 5px;
+    background-color: silver;
+}
+
+.btnRow {
+    display: flex;
+}
+
+#zero {
+    flex-grow: 3.1;
 }
